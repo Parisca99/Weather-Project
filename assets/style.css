@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+
+header {
+    border-style: solid;
+    text-align: center;
+    color: white;
+    height: 30px;
+    background: linear-gradient(to right, blue, red);
+  }
+
+
+.search_column_div {
+    border-style: solid;
+    width: 22%; 
+    padding: 0px;
+    float:left;
+}
+
+.search_panel_div {
+    border-style: solid;
+    padding: 10px;
+  }
+
+.search_history_div {
+    border-style: solid;
+    padding: 10px;
+}
+
+
+.city_weather_div {
+    border-style: solid;
+    width: 75%; 
+    padding: 0px;
+    float:right;
+}
+.city_weather_detail_div {
+    border-style: solid;
+    padding: 10px;
+}
+
+.city_weather_five_day_div {
+    border-style: solid;
+    padding: 10px;
+    height: 180px;
+}
+
+.city_weather_day {
+    border-style: solid;
+    padding: 1px;
+    margin-right: 20px;
+    width: 16%;
+    height: 90%;
+    float:left;
+}
