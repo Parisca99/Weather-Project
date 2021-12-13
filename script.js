@@ -21,7 +21,6 @@ function storeInit(){
 
 function storeSetCity(city,lat,lon){
     var date = new Date();
-    // paris fix the below to format date correctly
     var dates1 = date.toString();
     console.log("storeSetCity("+city+ ","+lat+","+lon+" at "+dates1);
     if (lat != 0 && lon != 0 ){
@@ -56,7 +55,7 @@ function storeSetDay(day,data){
         storeObj.day[day]=data;
         storeObj.updated=1;
     }
-    //console.log("storeSetDay=%o",storeObj);
+    console.log("storeSetDay=%o",storeObj);
 
 }
 function storeGetDay(day){
@@ -75,7 +74,7 @@ function storeLoad(){
     var json_data = localStorage.getItem("storeObj");
    if (json_data != null ) {
     console.log("running loadData");
-     //console.log("json=" + json_data);
+    console.log("json=" + json_data);
      storeObj = JSON.parse(json_data);
      storeObj.updated=1;
      storeObj.date= new Date();
