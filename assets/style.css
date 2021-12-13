@@ -6,34 +6,45 @@ body {
 
 
 header {
-    border-style: solid;
+    border-style: none;
     text-align: center;
     color: white;
     height: 30px;
-    background: linear-gradient(to right, blue, red);
+    padding:2px;
+    background: linear-gradient(to right, blue, rgb(25, 25, 46));
+    font-size: 26px;
+    font-weight: bolder;
   }
 
 
 .search_column_div {
-    border-style: solid;
+    border-style: none;
     width: 22%; 
     padding: 0px;
     float:left;
 }
 
+textarea{
+    width:99%;
+
+}
+
 .search_panel_div {
-    border-style: solid;
+    border-style: none;
     padding: 10px;
   }
 
 .search_history_div {
-    border-style: solid;
+    border-style: none;
     padding: 10px;
 }
 
+.search_title{
+    font-weight: bold;
+}
 
 .city_weather_div {
-    border-style: solid;
+    border-style: none;
     width: 75%; 
     padding: 0px;
     float:right;
@@ -41,19 +52,57 @@ header {
 .city_weather_detail_div {
     border-style: solid;
     padding: 10px;
+    margin: 10px;
+    width: 92%;
 }
 
 .city_weather_five_day_div {
-    border-style: solid;
+    border-style: none;
     padding: 10px;
     height: 180px;
+}
+.city_weather_title{
+    font-weight: bold;
+    font-size:20px;
+
 }
 
 .city_weather_day {
     border-style: solid;
-    padding: 1px;
-    margin-right: 20px;
-    width: 16%;
+    padding: 10px;
+    margin-right: 10px;
+    width: 15%;
     height: 90%;
     float:left;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(21, 21, 48);
+}
+.city_weather_detail_title{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.city_weather_day_title{
+    font-size:15px;
+}
+
+.button_history {
+    width:100%;
+    background-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.button_search{
+    width: 100%;
+    background-color:blue;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
